@@ -1,0 +1,7 @@
+Test Input
+We processed 94103000230 records.
+The school is 45.6 KM away
+The region's population has grown to 90000000000
+There were 7 apples
+The mine is 90023 deep
+He is only 25 years old

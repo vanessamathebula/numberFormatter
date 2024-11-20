@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: number_to_words</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for number_to_words"><tr><td>number_to_words</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>number_to_words</h2>
+
+<h3>Description</h3>
+
+<p>This function takes a sentence, checks if there is valid numerical input. If there is, converts the numerical data (up to 11 digits) to words, otherwise returns &quot;number invalid&quot;. In the case where the number is valid, but has digits that are greater than 11, it returns &quot;number greater than 11 digits&quot;.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+number_to_words(file_path)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>file_path</code></td>
+<td>
+<p>A path to a text file with contents to convert. Required column is the &quot;Test Input&quot; column.</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>Prints a tibble with the original text in one column and conversion results in the next column.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+number_to_words("data/test_input_data.txt")
+</pre>
+
+
+</body></html>

@@ -1,0 +1,4 @@
+Test input 	Expected output
+She read 1048 pages. 	one thousand and fourty-eight
+I bought it for $10987.00 	number invalid
+In total there were 9000000000000 units	number greater than 11 digits
