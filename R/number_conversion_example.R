@@ -1,13 +1,11 @@
 # *******************************
-# SetUp
+# SetUp - Clean Environment & Load Packages/Install & Load
 # *******************************
 
-# Clean environment
 
 rm(list = ls())
 
 pacman::p_load(dplyr, tibble, stringr, testthat, roxygen2, rmarkdown, janitor, readr)
-
 
 
 # *******************************
